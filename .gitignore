@@ -1,0 +1,71 @@
+
+# ==================================================
+# AR BASKETBALL CHALLENGE - UNITY GITIGNORE
+# ==================================================
+
+# 1. UNITY GENERATED FILES / CACHE
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# 2. UNITY BUILD OUTPUT
+[Bb]uild/
+[Bb]uilds/
+[Ee]xportOutput/
+
+# 3. ANDROID BUILD FILES
+*.apk
+*.aab
+*.obb
+*.gradle
+
+# 4. VUFORIA ENGINE LARGE PACKAGE
+Packages/com.ptc.vuforia.engine-11.4.4.tgz
+
+# 5. UNITY RECOVERY / CRASH FILES
+*_Recovery*.unity
+*_Recovery*.unity.meta
+sysinfo.txt
+
+# 6. IDE GENERATED FILES
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vsconfig
+
+# 7. TEMPORARY / BACKUP FILES
+*.tmp
+*.bak
+*.cache
+*.old
+*.orig
+
+# 8. TOOL CACHE
+.utmp/
+.github/modernize/
+
+# 9. OPERATING SYSTEM FILES
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# 10. UNITY GENERATED PACKAGE FILES
+/[Uu]nityGenerated/
